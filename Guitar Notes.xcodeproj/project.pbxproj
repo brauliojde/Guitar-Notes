@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2948D45A9F13E64B82B68803 /* Pods_Guitar_NotesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B328C88B2F5D93477612C2AD /* Pods_Guitar_NotesUITests.framework */; };
 		58DAC38D20B5B9DE00199BAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DAC38C20B5B9DE00199BAC /* AppDelegate.swift */; };
 		58DAC38F20B5B9DE00199BAC /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DAC38E20B5B9DE00199BAC /* FirstViewController.swift */; };
 		58DAC39120B5B9DE00199BAC /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DAC39020B5B9DE00199BAC /* SecondViewController.swift */; };
@@ -15,6 +16,10 @@
 		58DAC39920B5B9DE00199BAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58DAC39720B5B9DE00199BAC /* LaunchScreen.storyboard */; };
 		58DAC3A420B5B9DE00199BAC /* Guitar_NotesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DAC3A320B5B9DE00199BAC /* Guitar_NotesTests.swift */; };
 		58DAC3AF20B5B9DE00199BAC /* Guitar_NotesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DAC3AE20B5B9DE00199BAC /* Guitar_NotesUITests.swift */; };
+		58DAC3BD20B5BBBA00199BAC /* Tuner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DAC3BC20B5BBBA00199BAC /* Tuner.swift */; };
+		58DAC3BF20B6C34600199BAC /* Notes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DAC3BE20B6C34600199BAC /* Notes.swift */; };
+		84372F0774131D3CD065C579 /* Pods_Guitar_Notes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 500DB53F61A786486F64B0A4 /* Pods_Guitar_Notes.framework */; };
+		CA408FFA190B0AF14CBB701F /* Pods_Guitar_NotesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 032C8809B9E8505C33BF0E03 /* Pods_Guitar_NotesTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		032C8809B9E8505C33BF0E03 /* Pods_Guitar_NotesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Guitar_NotesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		116F97DD8840F41BB1F42108 /* Pods-Guitar Notes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Guitar Notes.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Guitar Notes/Pods-Guitar Notes.debug.xcconfig"; sourceTree = "<group>"; };
+		500DB53F61A786486F64B0A4 /* Pods_Guitar_Notes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Guitar_Notes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		58DAC38920B5B9DE00199BAC /* Guitar Notes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Guitar Notes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		58DAC38C20B5B9DE00199BAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		58DAC38E20B5B9DE00199BAC /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +57,14 @@
 		58DAC3AA20B5B9DE00199BAC /* Guitar NotesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Guitar NotesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		58DAC3AE20B5B9DE00199BAC /* Guitar_NotesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guitar_NotesUITests.swift; sourceTree = "<group>"; };
 		58DAC3B020B5B9DE00199BAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58DAC3BC20B5BBBA00199BAC /* Tuner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tuner.swift; sourceTree = "<group>"; };
+		58DAC3BE20B6C34600199BAC /* Notes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notes.swift; sourceTree = "<group>"; };
+		6D5A9C58AE0FCAD23C710DCC /* Pods-Guitar NotesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Guitar NotesUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Guitar NotesUITests/Pods-Guitar NotesUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		880B1B983CB07F29C404C715 /* Pods-Guitar NotesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Guitar NotesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Guitar NotesTests/Pods-Guitar NotesTests.release.xcconfig"; sourceTree = "<group>"; };
+		B328C88B2F5D93477612C2AD /* Pods_Guitar_NotesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Guitar_NotesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAC95D88125A1182A20CF4CA /* Pods-Guitar Notes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Guitar Notes.release.xcconfig"; path = "Pods/Target Support Files/Pods-Guitar Notes/Pods-Guitar Notes.release.xcconfig"; sourceTree = "<group>"; };
+		CD43E10B7B65DA1DD598633F /* Pods-Guitar NotesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Guitar NotesUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Guitar NotesUITests/Pods-Guitar NotesUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EC902261757CFCE2B930C074 /* Pods-Guitar NotesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Guitar NotesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Guitar NotesTests/Pods-Guitar NotesTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84372F0774131D3CD065C579 /* Pods_Guitar_Notes.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA408FFA190B0AF14CBB701F /* Pods_Guitar_NotesTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +88,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2948D45A9F13E64B82B68803 /* Pods_Guitar_NotesUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		56D1BA8952692D7669DC7D18 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				500DB53F61A786486F64B0A4 /* Pods_Guitar_Notes.framework */,
+				032C8809B9E8505C33BF0E03 /* Pods_Guitar_NotesTests.framework */,
+				B328C88B2F5D93477612C2AD /* Pods_Guitar_NotesUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		58DAC38020B5B9DE00199BAC = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +112,8 @@
 				58DAC3A220B5B9DE00199BAC /* Guitar NotesTests */,
 				58DAC3AD20B5B9DE00199BAC /* Guitar NotesUITests */,
 				58DAC38A20B5B9DE00199BAC /* Products */,
+				7A1B519D68EA05440A30F604 /* Pods */,
+				56D1BA8952692D7669DC7D18 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +137,8 @@
 				58DAC39520B5B9DE00199BAC /* Assets.xcassets */,
 				58DAC39720B5B9DE00199BAC /* LaunchScreen.storyboard */,
 				58DAC39A20B5B9DE00199BAC /* Info.plist */,
+				58DAC3BC20B5BBBA00199BAC /* Tuner.swift */,
+				58DAC3BE20B6C34600199BAC /* Notes.swift */,
 			);
 			path = "Guitar Notes";
 			sourceTree = "<group>";
@@ -128,6 +161,19 @@
 			path = "Guitar NotesUITests";
 			sourceTree = "<group>";
 		};
+		7A1B519D68EA05440A30F604 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				116F97DD8840F41BB1F42108 /* Pods-Guitar Notes.debug.xcconfig */,
+				CAC95D88125A1182A20CF4CA /* Pods-Guitar Notes.release.xcconfig */,
+				EC902261757CFCE2B930C074 /* Pods-Guitar NotesTests.debug.xcconfig */,
+				880B1B983CB07F29C404C715 /* Pods-Guitar NotesTests.release.xcconfig */,
+				6D5A9C58AE0FCAD23C710DCC /* Pods-Guitar NotesUITests.debug.xcconfig */,
+				CD43E10B7B65DA1DD598633F /* Pods-Guitar NotesUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +181,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 58DAC3B320B5B9DE00199BAC /* Build configuration list for PBXNativeTarget "Guitar Notes" */;
 			buildPhases = (
+				7F276EADFE587A2297FBF4D3 /* [CP] Check Pods Manifest.lock */,
 				58DAC38520B5B9DE00199BAC /* Sources */,
 				58DAC38620B5B9DE00199BAC /* Frameworks */,
 				58DAC38720B5B9DE00199BAC /* Resources */,
+				325B9610ABCD06EEB19CB50E /* [CP] Embed Pods Frameworks */,
+				21BAC9EA3B96BCB4044E35C2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +201,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 58DAC3B620B5B9DE00199BAC /* Build configuration list for PBXNativeTarget "Guitar NotesTests" */;
 			buildPhases = (
+				84DA5B8F6177149203849008 /* [CP] Check Pods Manifest.lock */,
 				58DAC39B20B5B9DE00199BAC /* Sources */,
 				58DAC39C20B5B9DE00199BAC /* Frameworks */,
 				58DAC39D20B5B9DE00199BAC /* Resources */,
+				396147AA8FFC9F8073A675E3 /* [CP] Embed Pods Frameworks */,
+				E834D28E160E0A4A8EA0157F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +222,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 58DAC3B920B5B9DE00199BAC /* Build configuration list for PBXNativeTarget "Guitar NotesUITests" */;
 			buildPhases = (
+				DAF0BA1855A85AAF7268B24A /* [CP] Check Pods Manifest.lock */,
 				58DAC3A620B5B9DE00199BAC /* Sources */,
 				58DAC3A720B5B9DE00199BAC /* Frameworks */,
 				58DAC3A820B5B9DE00199BAC /* Resources */,
+				10B63187A01773ACC7CEE7A5 /* [CP] Embed Pods Frameworks */,
+				7F771C33D6EE1BBD5E766BD7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,6 +251,7 @@
 				TargetAttributes = {
 					58DAC38820B5B9DE00199BAC = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 25L9HLQ9FD;
 						ProvisioningStyle = Automatic;
 					};
 					58DAC39E20B5B9DE00199BAC = {
@@ -257,11 +313,163 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		10B63187A01773ACC7CEE7A5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Guitar NotesUITests/Pods-Guitar NotesUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		21BAC9EA3B96BCB4044E35C2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Guitar Notes/Pods-Guitar Notes-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		325B9610ABCD06EEB19CB50E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Guitar Notes/Pods-Guitar Notes-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AudioKit/AudioKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AudioKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Guitar Notes/Pods-Guitar Notes-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		396147AA8FFC9F8073A675E3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Guitar NotesTests/Pods-Guitar NotesTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F276EADFE587A2297FBF4D3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Guitar Notes-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F771C33D6EE1BBD5E766BD7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Guitar NotesUITests/Pods-Guitar NotesUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84DA5B8F6177149203849008 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Guitar NotesTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAF0BA1855A85AAF7268B24A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Guitar NotesUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E834D28E160E0A4A8EA0157F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Guitar NotesTests/Pods-Guitar NotesTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		58DAC38520B5B9DE00199BAC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58DAC3BD20B5BBBA00199BAC /* Tuner.swift in Sources */,
+				58DAC3BF20B6C34600199BAC /* Notes.swift in Sources */,
 				58DAC39120B5B9DE00199BAC /* SecondViewController.swift in Sources */,
 				58DAC38D20B5B9DE00199BAC /* AppDelegate.swift in Sources */,
 				58DAC38F20B5B9DE00199BAC /* FirstViewController.swift in Sources */,
@@ -414,8 +622,10 @@
 		};
 		58DAC3B420B5B9DE00199BAC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 116F97DD8840F41BB1F42108 /* Pods-Guitar Notes.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 25L9HLQ9FD;
 				INFOPLIST_FILE = "Guitar Notes/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "block.io.Guitar-Notes";
@@ -426,8 +636,10 @@
 		};
 		58DAC3B520B5B9DE00199BAC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAC95D88125A1182A20CF4CA /* Pods-Guitar Notes.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 25L9HLQ9FD;
 				INFOPLIST_FILE = "Guitar Notes/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "block.io.Guitar-Notes";
@@ -438,6 +650,7 @@
 		};
 		58DAC3B720B5B9DE00199BAC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC902261757CFCE2B930C074 /* Pods-Guitar NotesTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -452,6 +665,7 @@
 		};
 		58DAC3B820B5B9DE00199BAC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 880B1B983CB07F29C404C715 /* Pods-Guitar NotesTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -466,6 +680,7 @@
 		};
 		58DAC3BA20B5B9DE00199BAC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D5A9C58AE0FCAD23C710DCC /* Pods-Guitar NotesUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = "Guitar NotesUITests/Info.plist";
@@ -479,6 +694,7 @@
 		};
 		58DAC3BB20B5B9DE00199BAC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD43E10B7B65DA1DD598633F /* Pods-Guitar NotesUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = "Guitar NotesUITests/Info.plist";
@@ -509,6 +725,7 @@
 				58DAC3B520B5B9DE00199BAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		58DAC3B620B5B9DE00199BAC /* Build configuration list for PBXNativeTarget "Guitar NotesTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +734,7 @@
 				58DAC3B820B5B9DE00199BAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		58DAC3B920B5B9DE00199BAC /* Build configuration list for PBXNativeTarget "Guitar NotesUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +743,7 @@
 				58DAC3BB20B5B9DE00199BAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

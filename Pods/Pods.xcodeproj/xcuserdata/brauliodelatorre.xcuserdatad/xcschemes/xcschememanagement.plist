@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>AudioKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Guitar Notes.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Guitar NotesTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Guitar NotesUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>367180281D677987F28A6929B360D331</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>381A05EBD619A20B65E362E0957242B5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>462961E746C1E3D15B4124A84FB6E695</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>595B10D211BBF24F7528A7E8EAD06238</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

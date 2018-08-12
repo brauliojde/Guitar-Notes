@@ -1,0 +1,6 @@
+framework module Pods_Guitar_Notes {
+  umbrella header "Pods-Guitar Notes-umbrella.h"
+
+  export *
+  module * { export * }
+}
